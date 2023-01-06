@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CPU60303_Local\Desktop\learnOpengl\glfw-3.3.8\build\CMakeFiles\c1525478d16a959c62342f74e07e73fc\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{726FCA7C-B6E4-3087-9556-6976F9D7E4C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
