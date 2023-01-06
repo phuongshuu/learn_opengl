@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\triangleYellow.fsh" />
+    <None Include="Shaders\triGreen.fsh" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Shaders\triangle.vsh" />
-    <Text Include="Shaders\triangleYellow.fsh" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Shaders\triangleRed.fsh" />
-    <None Include="Shaders\triGreen.fsh" />
+    <Text Include="Shaders\triangleRed.fsh" />
   </ItemGroup>
 </Project>

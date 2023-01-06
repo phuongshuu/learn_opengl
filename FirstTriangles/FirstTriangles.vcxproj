@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9AB390D0-F67E-461C-8593-F93DE51FFA96}</ProjectGuid>
-    <RootNamespace>ProjectOpenGl</RootNamespace>
+    <ProjectGuid>{6EE91E65-697C-44D2-A74C-5D833FCCABDD}</ProjectGuid>
+    <RootNamespace>FirstTriangles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
-    <ProjectName>FirstTriangles</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,13 +69,15 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)Shaders\Includes;$(SolutionDir)Dependencies\glfw-3.3.8\include;$(SolutionDir)Dependencies\glad\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)Dependencies\glfw-3.3.8\build\src\Debug;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)Shaders\Includes;$(SolutionDir)Dependencies\glfw-3.3.8\include;$(SolutionDir)Dependencies\glad\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Shaders\Includes;$(SolutionDir)Dependencies\glfw-3.3.8\include;$(SolutionDir)Dependencies\loadImage;$(SolutionDir)Dependencies\glad\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Dependencies\glfw-3.3.8\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)Shaders\Includes;$(SolutionDir)Dependencies\glfw-3.3.8\include;$(SolutionDir)Dependencies\loadImage;$(SolutionDir)Dependencies\glad\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies\glfw-3.3.8\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -142,11 +143,11 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shaders\triangleRed.fsh" />
+    <Text Include="Shaders\triangleRed.fsh">
+      <FileType>Document</FileType>
+    </Text>
+    <None Include="Shaders\triangleYellow.fsh" />
     <None Include="Shaders\triGreen.fsh" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Shaders\triangleYellow.fsh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

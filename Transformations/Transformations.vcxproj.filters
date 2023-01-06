@@ -23,17 +23,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shaders\Test\test.fsh" />
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="Shaders\Test\test.vsh" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="Textures\awesomeface.png">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Textures\container.jpg">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shaders\Test\test.fsh" />
+    <Text Include="Shaders\Test\test.vsh" />
   </ItemGroup>
 </Project>

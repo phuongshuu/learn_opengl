@@ -72,10 +72,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>$(SolutionDir)Dependencies\glad\include;$(SolutionDir)Dependencies\loadImage;$(SolutionDir)Dependencies\glfw-3.3.8\include;$(SolutionDir)Shaders\Includes;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Dependencies\glfw-3.3.8\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)Dependencies\glad\include;$(SolutionDir)Dependencies\loadImage;$(SolutionDir)Dependencies\glfw-3.3.8\include;$(SolutionDir)Shaders\Includes;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Dependencies\glfw-3.3.8\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
