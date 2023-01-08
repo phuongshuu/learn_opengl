@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstTriangles", "FirstTriangles\FirstTriangles.vcxproj", "{6EE91E65-697C-44D2-A74C-5D833FCCABDD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Camera", "Camera\Camera.vcxproj", "{AB73696E-736C-4ABF-84B6-B51726C87EBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -68,6 +70,14 @@ Global
 		{6EE91E65-697C-44D2-A74C-5D833FCCABDD}.Release|x64.Build.0 = Release|x64
 		{6EE91E65-697C-44D2-A74C-5D833FCCABDD}.Release|x86.ActiveCfg = Release|Win32
 		{6EE91E65-697C-44D2-A74C-5D833FCCABDD}.Release|x86.Build.0 = Release|Win32
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Debug|x64.ActiveCfg = Debug|x64
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Debug|x64.Build.0 = Debug|x64
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Debug|x86.Build.0 = Debug|Win32
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Release|x64.ActiveCfg = Release|x64
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Release|x64.Build.0 = Release|x64
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Release|x86.ActiveCfg = Release|Win32
+		{AB73696E-736C-4ABF-84B6-B51726C87EBB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
